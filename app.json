@@ -1,0 +1,13 @@
+{
+  "name": "AskadiasBot",
+  "description": "Simple Telegram Bot.",
+  "image": "heroku/python",
+  "repository": "https://github.com/Askadias/telegram-bot",
+  "keywords": ["telegram", "bot" ],
+  "addons": [ "telebot" ],
+  "env": {
+    "API_KEY": {
+      "description": "Telegram Bot API Key."
+    }
+  }
+}

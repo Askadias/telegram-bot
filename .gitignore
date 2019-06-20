@@ -124,3 +124,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+venv
+*.pyc
+staticfiles
+getting-started/*

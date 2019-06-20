@@ -1,3 +1,5 @@
+from os import environ
+
 from telebot import TeleBot
 
 app = TeleBot(__name__)
@@ -21,5 +23,5 @@ def parrot(message):
 
 
 if __name__ == '__main__':
-    app.config['api_key'] = '850358969:AAHYS36ztPQR6oJSAQ-pdiapG44XYhQLny8'
+    app.config['api_key'] = environ.get('API_KEY')
     app.poll(debug=True)

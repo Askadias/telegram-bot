@@ -9,7 +9,6 @@ app = TeleBot(__name__)
 def example_command(message, cmd):
     chat_dest = message['chat']['id']
     msg = "Command Recieved: {}".format(cmd)
-    print(msg+"\n")
 
     app.send_message(chat_dest, msg)
 
@@ -20,7 +19,6 @@ def parrot(message):
     user_msg = message['text']
 
     msg = "Parrot Says: {}".format(user_msg)
-    print(msg+"\n")
     app.send_message(chat_dest, msg)
 
 

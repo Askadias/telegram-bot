@@ -4,7 +4,7 @@
   "image": "heroku/python",
   "repository": "https://github.com/Askadias/telegram-bot",
   "keywords": ["telegram", "bot" ],
-  "addons": [ "telebot" ],
+  "addons": [ "python-telegram-bot" ],
   "env": {
     "API_KEY": {
       "description": "Telegram Bot API Key."
